@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
+  /* Light */
+  --color-bg: #F8FAFC;
+  --color-text: #0F172A;
+  --color-muted: #475569;
+
+  /* Emergency */
+  --color-medical: #16A34A;
+  --color-police: #2563EB;
+  --color-fire: #DC2626;
+  --color-trusted: #7C3AED;
+}
+
+/* Dark mode overrides */
+.dark {
+  --color-bg: #020617;
+  --color-text: #E5E7EB;
+  --color-muted: #94A3B8;
+}
+
+html, body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
