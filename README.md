@@ -4,8 +4,7 @@
 
 **One-Tap SOS** is a mobile-first emergency alert web app built with [Nuxt 4](https://nuxt.com) and [Nuxt UI](https://ui.nuxt.com). It allows users to send their live location instantly to emergency services or a trusted contact with a single tap.
 
-- [Live demo](#) (Add your deployment link here)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+- [Live demo]() 
 
 ---
 
@@ -26,6 +25,6 @@
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/ishola10/one-tap-sos>
 cd one-tap-sos
 pnpm install
